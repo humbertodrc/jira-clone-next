@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import { NextPage } from 'next';
 import { Roboto } from 'next/font/google';
 
@@ -11,7 +12,7 @@ import { Roboto } from 'next/font/google';
 const Home: NextPage = () => {
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <Typography variant='h1' color='primary'>Hola Mundo</Typography>
     </>
   )
 }
